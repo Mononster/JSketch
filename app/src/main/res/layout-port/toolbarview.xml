@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="50dp"
+        android:layout_height="180dp">
+
+        <Button
+            android:id="@+id/selectButton"
+            android:layout_width="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_height="70dp"
+            android:background="@drawable/select_button"
+            android:layout_marginTop="5dp" />
+        <Button
+            android:id="@+id/eraseButton"
+            android:layout_width="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_height="50dp"
+            android:background="@drawable/eraser2"
+            android:layout_marginTop="5dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/rectangleButton"
+        android:layout_width="40dp"
+        android:layout_marginStart="0dp"
+        android:layout_height="120dp"
+        android:background="@drawable/rectangle_button"
+        android:layout_marginEnd="15dp"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:id="@+id/circleButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/circle_button"
+
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:id="@+id/lineButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/line_button"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="15dp" />
+    <Button
+        android:id="@+id/fillButton"
+        android:layout_width="40dp"
+        android:layout_height="120dp"
+        android:textSize="5pt"
+        android:text="@string/fill"
+        android:background="@drawable/rectangle_button"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="15dp" />
+
+    <GridLayout
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:rowCount="3"
+        android:columnCount="2"
+        android:layout_width="65dp"
+        android:layout_height="140dp">
+        <Button
+            android:id="@+id/colorRedButton"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:background="@drawable/colorred_button"
+            />
+        <Button
+            android:id="@+id/colorBlueButton"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:background="@drawable/blue_button"
+            />
+        <Button
+            android:id="@+id/colorBlackButton"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:background="@drawable/lastcolor"
+            />
+        <Button
+            android:id="@+id/colorOrangeButton"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:background="@drawable/orangecolor"
+            />
+        <Button
+            android:id="@+id/colorGrayButton"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:background="@drawable/graycolor"
+            />
+        <Button
+            android:id="@+id/colorGreenButton"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:background="@drawable/greencolor"
+            />
+    </GridLayout>
+    <Button
+        android:id="@+id/Stroke1"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/stroke1"
+        android:layout_marginStart="-10dp"
+        android:layout_marginTop="15dp" />
+    <Button
+        android:id="@+id/Stroke2"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/stroke2"
+        android:layout_marginStart="-10dp"
+        android:layout_marginTop="15dp" />
+    <Button
+        android:id="@+id/Stroke3"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/stroke3"
+        android:layout_marginStart="-10dp"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:id="@+id/Stroke4"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/stroke4"
+        android:layout_marginStart="-10dp"
+        android:layout_marginTop="15dp" />
+
+</LinearLayout>

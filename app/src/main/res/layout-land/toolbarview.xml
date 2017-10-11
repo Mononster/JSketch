@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:layout_marginTop="15dp">
+    <Button
+        android:id="@+id/selectButton"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/select_button" />
+    <Button
+        android:id="@+id/eraseButton"
+        android:layout_marginTop="10dp"
+        android:layout_width="150dp"
+        android:layout_marginStart="10dp"
+        android:layout_height="30dp"
+        android:background="@drawable/erase_button" />
+
+    <Button
+        android:id="@+id/rectangleButton"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rectangle_button" />
+
+    <Button
+        android:id="@+id/circleButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/circle_button"/>
+
+    <Button
+        android:id="@+id/lineButton"
+        android:layout_width="150dp"
+        android:layout_marginStart="10dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/line_button" />
+    <Button
+        android:id="@+id/fillButton"
+        android:layout_width="150dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="5pt"
+        android:text="@string/fill"
+        android:background="@drawable/rectangle_button" />
+    <LinearLayout
+        android:layout_width="160dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginStart="18dp"
+        android:orientation="horizontal">
+    <GridLayout
+        android:rowCount="4"
+        android:columnCount="2"
+
+        android:layout_width="160dp"
+        android:layout_height="60dp">
+        <Button
+            android:id="@+id/colorRedButton"
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:background="@drawable/colorred_button"
+            />
+        <Button
+            android:id="@+id/colorBlueButton"
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:background="@drawable/blue_button"
+            />
+        <Button
+            android:id="@+id/colorBlackButton"
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:background="@drawable/lastcolor"
+            />
+        <Button
+            android:id="@+id/colorOrangeButton"
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:background="@drawable/orangecolor"
+            />
+        <Button
+            android:id="@+id/colorGrayButton"
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:background="@drawable/graycolor"
+            />
+        <Button
+            android:id="@+id/colorGreenButton"
+            android:layout_width="70dp"
+            android:layout_height="20dp"
+            android:background="@drawable/greencolor"
+            />
+
+    </GridLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="160dp"
+        android:layout_marginTop="-8dp"
+        android:layout_height="2dp"
+        android:background="@android:color/black"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="-10dp"
+        android:layout_width="170dp"
+        android:layout_marginLeft="5dp"
+        android:layout_height="80dp">
+        <Button
+            android:id="@+id/Stroke1"
+            android:layout_width="170dp"
+            android:layout_height="15dp"
+            android:background="@drawable/stroke1b"
+            android:layout_marginStart="-10dp"
+            android:layout_marginTop="8dp"
+            />
+        <Button
+            android:id="@+id/Stroke2"
+            android:layout_width="170dp"
+            android:layout_height="15dp"
+            android:background="@drawable/stroke2b"
+            android:layout_marginStart="-8dp"
+            android:layout_marginTop="-5dp"/>
+        <Button
+            android:id="@+id/Stroke3"
+            android:layout_width="182dp"
+            android:layout_height="15dp"
+            android:background="@drawable/stroke3b"
+            android:layout_marginStart="-18dp"
+            android:layout_marginTop="-2dp" />
+
+        <Button
+            android:id="@+id/Stroke4"
+            android:layout_width="185dp"
+            android:layout_height="15dp"
+            android:background="@drawable/stroke4b"
+            android:layout_marginStart="-18dp"
+            android:layout_marginTop="1dp" />
+    </LinearLayout>
+
+</LinearLayout>

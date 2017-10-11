@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true">
+        <rotate xmlns:android="http://schemas.android.com/apk/res/android"
+            android:fromDegrees="90"
+            android:toDegrees="180">
+            <shape
+                android:shape="line">
+                <stroke
+                    android:width="2dp"
+                    android:color="#ff0000"
+                    android:dashWidth="0dp"
+                    android:dashGap="2dp" />
+            </shape>
+        </rotate>
+    </item>
+    <item android:state_pressed="false">
+        <rotate xmlns:android="http://schemas.android.com/apk/res/android"
+            android:fromDegrees="90"
+            android:toDegrees="180">
+            <shape
+                android:shape="line">
+                <stroke
+                    android:width="2dp"
+                    android:color="#000000"
+                    android:dashWidth="0dp"
+                    android:dashGap="2dp" />
+            </shape>
+        </rotate>
+    </item>
+</selector>
